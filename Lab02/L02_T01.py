@@ -1,5 +1,11 @@
-#määritetään muuttujat sukunimi ja pituus, kysytään käyttäjältä sukunimi
+'''
+    author: Petri Peltomaa
+    ohjelmoinnin perusteet: Labra 2 tehtävä 1
+
+'''
+
+# määritetään muuttujat
 sukunimi = input("Anna Sukunimesi: ")
 pituus = len(sukunimi)
-#tulostetaan annettun sukunimen merkkijonon merkkien lukumääränä
+
 print(f"Nimessäsi on {pituus} merkkiä ")

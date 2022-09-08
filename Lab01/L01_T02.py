@@ -1,5 +1,10 @@
-# määritetään muuttujat etunimi ja sukunimi ja kysytään käyttäjän etu- ja sukunimi
+'''
+    author: Petri Peltomaa
+    ohjelmoinnin perusteet: Labra 1 tehtävä 2
+    
+'''
+
 etunimi = input("Anna etunimesi: ")
 sukunimi = input("Anna sukunimesi: ")
-# tulostetaan käyttäjän antama nimi
+
 print("Moikka", etunimi, sukunimi)
