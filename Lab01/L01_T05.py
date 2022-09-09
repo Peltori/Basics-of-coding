@@ -1,6 +1,9 @@
 '''
     author: Petri Peltomaa
     ohjelmoinnin perusteet: Labra 1 tehtävä 5
+
+    ohjelma kysyy käyttäjän rahamäärän
+    ohjelma laskee luvut yhteen ja tulostaa summan konsoliin
     
 '''
 

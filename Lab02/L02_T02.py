@@ -1,13 +1,15 @@
 '''
     author: Petri Peltomaa
     ohjelmoinnin perusteet: Labra 2 tehtävä 2
+    ohjelma tulostaa käyttäjän antaman nimen isolla
 
 '''
 
 # määritetään muuttujat
+
 etunimi = input("Anna etunimesi: ")
 sukunimi = input("Anna sukunimesi: ")
-a = etunimi.upper()
-b = sukunimi.upper()
+etunimi_iso = etunimi.upper()
+sukunimi_iso = sukunimi.upper()
 
-print(a, b)
+print(etunimi_iso, sukunimi_iso)

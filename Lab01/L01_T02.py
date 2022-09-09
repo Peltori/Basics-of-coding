@@ -4,6 +4,8 @@
     
 '''
 
+# määritetään muuttujat
+
 etunimi = input("Anna etunimesi: ")
 sukunimi = input("Anna sukunimesi: ")
 

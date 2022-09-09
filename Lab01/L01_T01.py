@@ -5,6 +5,7 @@
 '''
 
 # määritetään muuttuja
+
 name = "Petri Peltomaa"
 
 print("Here starts basics of programming with Python")
