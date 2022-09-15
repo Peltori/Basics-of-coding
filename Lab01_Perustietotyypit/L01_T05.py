@@ -7,8 +7,8 @@
     
 '''
 
-eurot = int(input("Montako euroa sinulla on? (Anna kokonaisluku) "))
-sentit = float(input("Montako senttiä sinulla on? (Anna desimaaleina) "))
-summa = eurot + sentit
+eurot = int(input("Montako euroa sinulla on? "))
+sentit = int(input("Montako senttiä sinulla on? "))
+summa = eurot + (sentit * 0.01)
 
-print(f"Rahaa sinulla on {summa:.2f} ")
+print(f"Rahaa sinulla on {summa} ")
