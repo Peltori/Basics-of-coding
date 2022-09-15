@@ -2,7 +2,7 @@
     author Petri Peltomaa
     ohjelmoinnin perusteet: Labra 4 tehtävä 2
 
-    ohjelma kysyy käyttäjältä viikon jokaiseltä päivältä sademäärän
+    ohjelma kysyy käyttäjältä viikon jokaiselta päivältä sademäärän
     ja laskee sademäärät yhteen
 
 '''
