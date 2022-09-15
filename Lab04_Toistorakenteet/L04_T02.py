@@ -22,26 +22,3 @@ while True:
         break
 
 print(f"Viikon sademäärä yhteensä: {viikonsade}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#sademäärä_1 = input("Anna sademäärä: ")
-#sademäärä_2 = input("Anna sademäärä: ")
-#sademäärä_3 = input("Anna sademäärä: ")
-#sademäärä_4 = input("Anna sademäärä: ")
-#sademäärä_5 = input("Anna sademäärä: ")
-#sademäärä_6 = input("Anna sademäärä: ")
-#sademäärä_7 = input("Anna sademäärä: ")
