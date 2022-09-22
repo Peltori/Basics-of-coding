@@ -2,7 +2,7 @@
     author Petri Peltomaa
     ohjelmoinnin perusteet: Labra 4 tehtävä 2
 
-    ohjelma kysyy käyttäjältä viikon jokaiseltä päivältä sademäärän
+    ohjelma kysyy käyttäjältä viikon jokaiselta päivältä sademäärän
     ja laskee sademäärät yhteen
 
 '''
@@ -22,26 +22,3 @@ while True:
         break
 
 print(f"Viikon sademäärä yhteensä: {viikonsade}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#sademäärä_1 = input("Anna sademäärä: ")
-#sademäärä_2 = input("Anna sademäärä: ")
-#sademäärä_3 = input("Anna sademäärä: ")
-#sademäärä_4 = input("Anna sademäärä: ")
-#sademäärä_5 = input("Anna sademäärä: ")
-#sademäärä_6 = input("Anna sademäärä: ")
-#sademäärä_7 = input("Anna sademäärä: ")
