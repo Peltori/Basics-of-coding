@@ -8,6 +8,7 @@
 
 '''
 
+<<<<<<< HEAD
 # muuttujien alustus
 
 luvut = 0
@@ -15,6 +16,11 @@ summa = 0
 
 # while loop jatkaa toistamista kunnes annetaan tyhjä syöte
 
+=======
+luvut = 0
+summa = 0
+
+>>>>>>> c9e8247817b9bf8a5cf917a4e25a950ef1fd0325
 while True:
     try:
         luku = int(input("Anna kokonaisluku: "))
