@@ -7,21 +7,11 @@
 
 '''
 
+# funktion alustus
 
 def subtract(num, num2):
-    return (num - num2)
+    erotus = (num -num2)
+    return (erotus)
+
+print(subtract(1, 2))
 print(subtract(4, 2))
-
-
-'''
-
-Sama ohjelma, mutta käyttäjän antaman inputin mukaan.
-
-num = int(input("Anna kokonaisluku: "))
-num2 = int(input("Anna toinen kokonaisluku: "))
-
-def subtract(num, num2):
-    return (num - num2)
-print(subtract(num, num2))
-
-'''
