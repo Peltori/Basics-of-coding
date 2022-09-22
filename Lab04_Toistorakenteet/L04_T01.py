@@ -13,4 +13,5 @@ luvut = int(input("Montako lukua luodaan? "))
 
 for luku in range(luvut):
     numbers = 10 * luku
+    
     print("luku: " ,numbers)
