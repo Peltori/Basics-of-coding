@@ -1,11 +1,12 @@
 '''
     author: petri peltomaa
-    ohjelmoinnin perusteet Labra 5 Tehtävä 2
+    ohjelmoinnin perusteet: Labra 5 Tehtävä 2
 
-    Luodaan funktio 
+    ensimmäinen funktion luonti
+    
 '''
 
 def show_info():
     print("Olen Info-funktio")
 
-print(show_info())
+show_info()
