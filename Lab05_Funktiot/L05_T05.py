@@ -7,6 +7,7 @@
 
 '''
 
+# funktion alustus
 
 def get_fuel(km, keskikulutus, litrahinta):
     kustannus = ((km * keskikulutus) / 100 * litrahinta)

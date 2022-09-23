@@ -19,18 +19,3 @@ for kirjain in etunimi:
     käänteinen = sukunimi[::-1]
 
 print(ekakirjain, käänteinen)
-
-
-
-# vanha ohjelma
-# muuttujien alustus
-
-#etunimi = input("Anna etunimesi: ")
-#sukunimi = input("Anna sukunimesi: ")
-#pituus = len(etunimi)
-#pituus2 = len(sukunimi)
-#eka = etunimi[0]
-#käänteinen = sukunimi[::-1]
-#etukirjain = pituus * eka
-
-#print(etukirjain, käänteinen)

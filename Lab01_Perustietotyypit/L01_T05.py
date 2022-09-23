@@ -7,6 +7,8 @@
     
 '''
 
+# muuttujien alustus
+
 eurot = int(input("Montako euroa sinulla on? "))
 sentit = int(input("Montako senttiä sinulla on? "))
 summa = eurot + (sentit * 0.01)

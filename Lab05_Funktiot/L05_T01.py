@@ -6,6 +6,8 @@
     
 '''
 
+# funktion alustus
+
 def show_info():
     print("Olen Info-funktio")
 

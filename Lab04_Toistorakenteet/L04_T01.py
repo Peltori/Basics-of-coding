@@ -10,8 +10,10 @@
 # muuttujan alustus
 
 luvut = int(input("Montako lukua luodaan? "))
+määrä = 0
 
 for luku in range(luvut):
     numbers = 10 * luku
+    määrä += 1
     
-    print("luku: " ,numbers)
+    print(f"luku {määrä}: {numbers}")

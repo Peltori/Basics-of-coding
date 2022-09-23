@@ -4,7 +4,7 @@
 
 '''
 
-# määritetään muuttuja
+# muuttujien alustus
 
 name = "Petri Peltomaa"
 

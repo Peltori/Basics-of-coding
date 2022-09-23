@@ -7,7 +7,7 @@
 
 '''
 
-#muuttujien alustus
+# muuttujien alustus
 
 päivät = 0
 viikonsade = 0
