@@ -9,9 +9,9 @@
 
 # funktion alustus
 
-def get_fuel(km, keskikulutus, litrahinta):
+def get_cost(km, keskikulutus, litrahinta):
     kustannus = ((km * keskikulutus) / 100 * litrahinta)
     return (f"kustannus {kustannus:.2f} €")
 
-print(get_fuel(100, 7.5, 1.88))
-print(get_fuel(220, 6.9, 1.88))
+print(get_cost(100, 7.5, 1.88))
+print(get_cost(220, 6.9, 1.88))
