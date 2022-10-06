@@ -3,7 +3,7 @@
     ohjelmoinnin perusteet: Labra 7 tehtävä 3
 
     luodaan Cat luokka, jolla on kaksi ominaisuutta: "name" ja "color", sekä metodi "miau"
-    luodaan luokasta Cat kaksi erilaista kissa-oliota, kissa oliot myös maukuvat
+    luodaan luokasta Cat kaksi erilaista kissa-oliota, kissa oliot myös naukuvat
 
 '''
 
