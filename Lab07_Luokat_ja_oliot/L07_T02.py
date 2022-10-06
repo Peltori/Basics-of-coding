@@ -13,7 +13,7 @@ class Human():
     name = ""
     age = ""
     def __str__(self):
-        return str(self.name) + ", " + str(self.age) + " "
+        return str(self.name) + ", " + str(self.age)
 
 # luodaan Human-oliot ja asetetaan ominaisuudet
 
