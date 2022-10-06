@@ -10,7 +10,7 @@
 # funktion alustus
 
 def subtract(num, num2):
-    erotus = (num -num2)
+    erotus = (num - num2)
     return (erotus)
 
 print(subtract(1, 2))
