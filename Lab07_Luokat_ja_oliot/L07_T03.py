@@ -12,8 +12,10 @@
 class Cat():
     name = ""
     color = ""
+    
     def __str__(self):
         return self.name + ", " + self.color
+    
     def miau(self):
         return f"{self.name} says: Meoooooooooow!"
 
