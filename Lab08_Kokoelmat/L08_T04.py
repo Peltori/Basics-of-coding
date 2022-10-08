@@ -46,6 +46,6 @@ autot_kokoelma = {
 
 lajiteltu_kokoelma = sorted(autot_kokoelma.items(), key = lambda x: x[1]['rekisterinumero'])
 
-#sorted(autot_kokoelma)
+# sorted(autot_kokoelma)
 
 print(lajiteltu_kokoelma)
