@@ -6,6 +6,7 @@
     palauttaa tämän merkkijonona luvut pilkulla eroteltuina
 
 '''
+# otetaan käyttöön "random" kirjasto
 
 import random
 
