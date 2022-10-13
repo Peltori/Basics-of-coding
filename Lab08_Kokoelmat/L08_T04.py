@@ -1,6 +1,6 @@
 '''
     author: Petri Peltomaa
-    ohjelmoinnin perusteet: Labra 8 tehtävä 3
+    ohjelmoinnin perusteet: Labra 8 tehtävä 4
 
     tallenetaan kymmenen eri auton tiedot Dictionary kokoelmaan
     autoista tiedetään rekisterinumero ja autonmerkki
