@@ -44,8 +44,8 @@ autot_kokoelma = {
     }
 }
 
-lajiteltu_kokoelma = sorted(autot_kokoelma.items(), key = lambda x: x[1]['rekisterinumero'])
+# lajitellaan kokoelma avaimen "rekisterinumero" perusteella
 
-# sorted(autot_kokoelma)
+lajiteltu_kokoelma = sorted(autot_kokoelma.items(), key = lambda x: x[1]['rekisterinumero'])
 
 print(lajiteltu_kokoelma)
