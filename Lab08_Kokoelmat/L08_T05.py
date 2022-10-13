@@ -12,12 +12,15 @@
 import random
 
 
-lista = {}
+lista = set()
 
 # luodaan funktio joka arpoo seitsemän lukua väliltä 1-40
 
 def lotto():
-    for num in range(7):
-        num = random.randint(1,40)
-        print(num)
+    for luku in range(7):
+        luku = random.randint(1,40)
+        lista.add(luku)
+        print(lista)
+
+print(lista)
 
