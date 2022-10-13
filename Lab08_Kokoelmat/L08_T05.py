@@ -4,23 +4,23 @@
 
     luodaan funktio "lotto()" joka arpoo lottorivin 7 numeroa väliltä 1-40
     palauttaa tämän merkkijonona luvut pilkulla eroteltuina
-    käytetään rekisterinumeroa avaimena
-    tulostetaan autot aakkosjärjestyksessä rekisterinumeron mukaan
 
 '''
 
 import random
 
+# käytetään set tyypin kokoelmaa, koska se ei salli useita samansisältöisiä elementtejä
 
-lista = set()
+numerot = set()
 
-# luodaan funktio joka arpoo seitsemän lukua väliltä 1-40
+# luodaan "lotto()" funktio joka arpoo seitsemän lukua väliltä 1-40
 
 def lotto():
-    for luku in range(7):
+    while len(numerot) <7:
         luku = random.randint(1,40)
-        lista.add(luku)
-        print(lista)
+        numerot.add(luku)
+    print(numerot)
 
-print(lista)
+# kutsutaan funktiota "lotto()"
 
+lotto()
