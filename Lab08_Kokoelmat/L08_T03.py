@@ -16,7 +16,7 @@ arvosanat = []
 
 while True:
     try:
-        arvosana = int(input("Anna kurssin arvosana (1,2,3,5 tai 5): "))
+        arvosana = int(input("Anna kurssin arvosana (1,2,3,4 tai 5): "))
     except ValueError:
         break
     else:
@@ -30,4 +30,4 @@ keskiarvo = sum(arvosanat) / len(arvosanat)
 # tulostetaan arvosanojen määrä ja keskiarvo
 
 print("annettujen arvosanojen määrä: ", len(arvosanat))
-print(f"Lukujen keskiarvo on:  {keskiarvo}")
+print(f"Lukujen keskiarvo on:  {keskiarvo:.1f}")
