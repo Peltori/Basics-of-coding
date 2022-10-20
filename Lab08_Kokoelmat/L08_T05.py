@@ -11,6 +11,7 @@
 import random
 
 # käytetään set tyypin kokoelmaa, koska se ei salli useita samansisältöisiä elementtejä
+## tällä eliminoidaan samojen numeroiden mahdollisuus lottorivillä
 
 numerot = set()
 

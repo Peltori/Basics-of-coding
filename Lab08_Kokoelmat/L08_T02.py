@@ -13,7 +13,7 @@
 rekkarit = []
 
 
-# while loop lisää annetut nimet listaan ja katkaisee loopin kun käyttäjä antaa tyhjän syötteen
+# while loop lisää annetut rekisterinumerot listaan ja katkaisee loopin kun käyttäjä antaa tyhjän syötteen
 
 while True:
     rekkari = input("Anna auton rekisterinumero muodossa (ABC-123): ")

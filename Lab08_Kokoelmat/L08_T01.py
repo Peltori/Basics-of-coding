@@ -17,7 +17,7 @@ nimet_laskuri = 0
     käytin tässä "isidentifier()" string metodia, koska se ei hyväksy numeroilla alkavaa stringia
     mutta hyväksyy kuitenkin numeroita syötteessä muualla kuin alussa, joten tämäkään tapa ei ole täydellinen tarkastamaan
     onko annettu nimi tekstiä vaiko ei, myöskään kaksiosaiset nimet eivät onnistu
-    koska jos syötteessä on "-" niin se ei ole silloin identifier
+    koska jos syötteessä on viiva "-" niin se ei ole silloin identifier
 
 '''
 # while loop lisää annetut nimet listaan ja katkaisee loopin kun 10 nimeä on annettu
