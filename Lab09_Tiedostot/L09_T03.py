@@ -10,16 +10,19 @@
 
 # laskurin määritys ja tiedoston avaaminen
 
-lukujen_maara = 0
-file = open(r"tekstitiedostot/luvut.txt", "a")
-
 while True:
     try:
+        lukujen_maara = 0
+        file = open(r"tekstitiedostot/luvut.txt", "a")
         luku = int(input("Anna kokonaisluku: "))
 
     except ValueError:
         print("Input tyhjä, lopetetaan ohjelma")
         break
+
+    except:
+        print(f"Tiedoston {file} käsittelyssä on onglema")
+        print("Onko tiedosto varmasti olemassa")
 
     else:
         numero = str(luku)
