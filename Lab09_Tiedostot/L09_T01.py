@@ -14,14 +14,16 @@
 #### en onnistunut saamaan koodia löytämään merkkien seasta numeroita eli jos jokin merkki on numero niin se tallentuu tiedostoon sellaisenaan
 
 while True:
-    try:        
+    try:
+        file = open(r"tekstitiedostot/testi.txt", "a")
         nimi = input("Anna sukunimi: ")
         if nimi == '':
             break
         elif nimi.isdigit() or nimi.count("."):
             print("Annoitko varmasti nimen?")
         else:
-            file = open(r"tekstitiedostot/testi.txt", "a")
             file.write(nimi + "\n")
-    except:
         file.close()
+    except:
+        print(f"Tiedoston {file} käsittelyssä tapahtui ongelma")
+        print("Onko tiedosto varmasti olemassa?")
