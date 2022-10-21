@@ -14,13 +14,16 @@ lukujen_maara = 0
 file = open(r"tekstitiedostot/luvut.txt", "a")
 
 while True:
-    luku = input("Anna kokonaisluku: ")
-    if luku == '':
-       break
-    elif luku.isalpha():
-        print("Annoitko varmasti kokonaisluvut?")
+    try:
+        luku = int(input("Anna kokonaisluku: "))
+
+    except ValueError:
+        print("Input tyhjä, lopetetaan ohjelma")
+        break
+
     else:
-        file.write(luku + "\n")
+        numero = str(luku)
+        file.write(numero + "\n")
         lukujen_maara += 1
 
 # kirjoitetaan tiedostoon montako lukua käyttäjä antoi
