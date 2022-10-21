@@ -7,7 +7,10 @@
 
 '''
 
-# kysytään käyttäjien nimiä
+# määritellään while loop
+## looppi tarkistaa löytyykö koodista pisteitä tai numeroita
+### isnumeric on True vain silloin jos inputissa KAIKKI merkit ovat numeroita
+#### en onnistunut saamaan koodia löytämään merkkien seasta numeroita eli jos jokin merkki on numero niin se tallentuu tiedostoon sellaisenaan
 
 while True:
     nimi = input("Anna sukunimi: ")
