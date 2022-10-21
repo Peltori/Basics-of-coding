@@ -4,6 +4,7 @@
 
     ohjelma kysyy käyttäjältä henkilöiden sukunimiä ja kirjoittaa annetut nimet tiedostoon
     nimiä kysytään niin kauan kunnes annetaan tyhjä syöte
+    huomioidaan mahdolliset poikkeukset, joita tiedoston käsittely voi aiheuttaa
 
 '''
 
@@ -13,12 +14,14 @@
 #### en onnistunut saamaan koodia löytämään merkkien seasta numeroita eli jos jokin merkki on numero niin se tallentuu tiedostoon sellaisenaan
 
 while True:
-    nimi = input("Anna sukunimi: ")
-    if nimi == '':
-        break
-    elif nimi.isdigit() or nimi.count("."):
-        print("Annoitko varmasti nimen?")
-    else:
-        file = open(r"tekstitiedostot/testi.txt", "a")
-        file.write(nimi + "\n")
+    try:        
+        nimi = input("Anna sukunimi: ")
+        if nimi == '':
+            break
+        elif nimi.isdigit() or nimi.count("."):
+            print("Annoitko varmasti nimen?")
+        else:
+            file = open(r"tekstitiedostot/testi.txt", "a")
+            file.write(nimi + "\n")
+    except:
         file.close()
