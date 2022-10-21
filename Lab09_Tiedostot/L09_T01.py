@@ -1,6 +1,6 @@
 '''
     author: Petri Peltomaa
-    ohjelmoinnin perusteet: Labra 8 tehtävä 5
+    ohjelmoinnin perusteet: Labra 9 tehtävä 1
 
     ohjelma kysyy käyttäjältä henkilöiden sukunimiä ja kirjoittaa annetut nimet tiedostoon
     nimiä kysytään niin kauan kunnes annetaan tyhjä syöte
