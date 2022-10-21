@@ -12,19 +12,23 @@
 nimet_lista = []
 
 # luetaan tiedostosta nimet
+try:
+    file = open(r"tekstitiedostot/testi.txt", "r")
 
-file = open(r"tekstitiedostot/testi.txt", "r")
-
-for nimi in file:
-    nimet_lista.append(nimi)
+    for nimi in file:
+        nimet_lista.append(nimi)
 
 # suljetaan lista
 
-file.close()
+    file.close()
 
-print(nimet_lista)
+    print(nimet_lista)
 
 # lajitellaan lista aakkosjärjestykseen ja näytetään lista konsolilla
 
-nimet_lista.sort()
-print(nimet_lista)
+    nimet_lista.sort()
+    print(nimet_lista)
+    
+except:
+    print(f"Tiedoston {file} käsittelyssä tapahtui ongelma")
+    print("Onko tiedosto varmasti olemassa")
