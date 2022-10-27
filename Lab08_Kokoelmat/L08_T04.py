@@ -9,43 +9,30 @@
 
 '''
 
-# luodaan Dictionary kokoelma autoille
+# luodaan tyhjä dictionary kokoelma autoille
+## luodaan myös tyhjä lista avaimille, jotta voidaan lajitella tulostus rekisterinumeron perusteella
 
-autot_kokoelma = {
-    "Skoda" : {
-        "rekisterinumero" : "BXZ-464",
-},
-    "Volvo" : {
-        "rekisterinumero" : "BXX-423",
-},
-    "Toyota" : {
-        "rekisterinumero" : "ZNF-565",
-},
-    "Hyundai" : {
-        "rekisterinumero" : "XDS-222",
-},
-    "Chrysler" : {
-        "rekisterinumero" : "VVV-498",
-},
-    "Mitsubishi" : {
-        "rekisterinumero" : "CNF-672",
-},
-    "Seat" : {
-        "rekisterinumero" : "BXZ-565",
-},
-    "Honda" : {
-        "rekisterinumero" : "ULN-888",
-},
-    "Dodge" : {
-        "rekisterinumero" : "CFH-123",
-},
-    "Volkswagen" : {
-        "rekisterinumero" : "ULF-358",
-    }
+autot = {}
+keys=[]
+
+dict_autot={
+    "BXZ-464" : "Skoda",
+    "BXX-423" : "Volvo",
+    "ZNF-565" : "Toyota",
+    "XDS-222" : "Hyundai",
+    "VVV-498" : "Chrysler",
+    "CNF-672" : "Mitsubishi",
+    "BXZ-565" : "Seat",
+    "ULN-888" : "Honda",
+    "CFH-123" : "Dodge",
+    "ULF-358" : "Volskwagen"
 }
 
-# lajitellaan kokoelma avaimen "rekisterinumero" perusteella
+for key in dict_autot.keys():
+    keys.append(key)
 
-lajiteltu_kokoelma = sorted(autot_kokoelma.items(), key = lambda x: x[1]['rekisterinumero'])
+keys.sort()
 
-print(lajiteltu_kokoelma)
+for key in keys:
+    value=dict_autot[key]
+    print(key,value)
