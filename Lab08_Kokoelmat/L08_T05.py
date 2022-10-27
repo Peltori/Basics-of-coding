@@ -15,9 +15,11 @@ import random
 
 numerot = set()
 lst_numerot = []
-# luodaan "lotto()" funktio joka arpoo seitsemän lukua väliltä 1-40
 
-def lotto():
+# luodaan "lotto()" funktio joka arpoo seitsemän lukua väliltä 1-40
+## funktio myös lajittelee numerot pienimmästä suurimpaan
+
+def lotto():    
     while len(numerot) <7:
         luku = random.randint(1,40)
         numerot.add(luku)
