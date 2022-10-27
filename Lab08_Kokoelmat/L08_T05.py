@@ -14,15 +14,17 @@ import random
 ## tällä eliminoidaan samojen numeroiden mahdollisuus lottorivillä
 
 numerot = set()
-
+lst_numerot = []
 # luodaan "lotto()" funktio joka arpoo seitsemän lukua väliltä 1-40
 
 def lotto():
     while len(numerot) <7:
         luku = random.randint(1,40)
         numerot.add(luku)
-    print(numerot)
 
-# kutsutaan funktiota "lotto()"
+    for numero in numerot:
+        lst_numerot.append(numero)
+    lst_numerot.sort()
+    print(lst_numerot)
 
 lotto()
