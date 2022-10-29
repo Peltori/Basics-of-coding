@@ -12,5 +12,5 @@ lst_nelja = [1, "A", "B", 10]
 try: 
     lst_nelja[4] = 5
     print(lst_nelja)
-except:
+except IndexError:
     print("Listassa ei ole indeksiä 4")
