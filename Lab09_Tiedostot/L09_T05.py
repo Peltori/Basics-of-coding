@@ -17,7 +17,7 @@ import random
 
 while True:
     try:
-        file = open(r"tekstitiedostot/lotto.txt", "a")
+        file = open(r"tekstitiedostot/lotto.txt", "a", encoding = "utf-8")
         set_numerot = set()
         lst_numerot = []
         rivit = int(input("Montako riviä arvotaan? "))

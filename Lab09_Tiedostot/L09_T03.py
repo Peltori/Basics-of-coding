@@ -13,7 +13,7 @@
 while True:
     try:
         lukujen_maara = 0
-        file = open(r"tekstitiedostot/luvut.txt", "a")
+        file = open(r"tekstitiedostot/luvut.txt", "a", encoding = "utf-8")
         luku = int(input("Anna kokonaisluku: "))
 
     except ValueError:

@@ -15,7 +15,7 @@
 
 while True:
     try:
-        file = open(r"tekstitiedostot/testi.txt", "a")
+        file = open(r"tekstitiedostot/testi.txt", "a", encoding = "utf-8")
         nimi = input("Anna sukunimi: ")
         if nimi == '':
             break

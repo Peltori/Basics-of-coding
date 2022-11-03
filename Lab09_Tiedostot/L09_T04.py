@@ -10,7 +10,7 @@
 # luodaan tyhjä dictionary
 try:
     nimi_kokoelma = {}
-    file = open(r"tekstitiedostot/nimet.txt", "r")
+    file = open(r"tekstitiedostot/nimet.txt", "r", encoding = "utf-8")
 
     for nimi in file:
         if nimi in nimi_kokoelma:

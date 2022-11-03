@@ -13,7 +13,7 @@ nimet_lista = []
 
 # luetaan tiedostosta nimet
 try:
-    file = open(r"tekstitiedostot/testi.txt", "r")
+    file = open(r"tekstitiedostot/testi.txt", "r", encoding = "utf-8")
 
     for nimi in file:
         nimet_lista.append(nimi)
