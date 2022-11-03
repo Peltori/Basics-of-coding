@@ -17,9 +17,13 @@ while True:
     nimi = input("Anna oppilaan nimi: ")
     if nimi == '':
         break
-    else:
+    elif nimi.isnumeric():
+        print("Numerot eivät ole sallittuja")
+    elif nimi.isalpha():
         nimet_lista.append(nimi)
         continue
+    else:
+        print("Annoitko pelkän nimen ilman numeroita?")
 
 
 print(f"Oppilaiden lukumäärä:" ,len(nimet_lista))
