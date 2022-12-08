@@ -15,14 +15,7 @@ import time
 import sys
 import random
 from Kysymykset import *
-
-# Funktio jolla saadaan tekstin tulostus konsoliin hitaammaksi
-
-def slowPrint(string, speed=0.05):
-    for char in string + '\n':
-        sys.stdout.write(char)
-        sys.stdout.flush()
-        time.sleep(speed)
+from Funktiot import *
 
 # muuttujien alustusta
 
@@ -36,7 +29,8 @@ slowPrint("Tervetuloa Linuxässä tietovisaan!!", 0.1)
 
 pelaaja = input("Anna pelaajan nimi kiitos: ")
 
-# Arvotaan kysymykset
+# Arvotaan kysymykset satunnaisesti
+## "kysymysten_maara" arpoo 5 kysymystä Kysymykset.py tiedostossa olevista kysymyksistä
 
 kysymysten_maara = min(kysymysten_maara_per_visa, len(dict_kysymykset))
 kysymykset = random.sample(list(dict_kysymykset.items()), k=kysymysten_maara)

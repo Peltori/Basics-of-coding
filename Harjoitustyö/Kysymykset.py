@@ -1,4 +1,5 @@
 # Kysymysten alustus ja listan luonti
+## Alla olevaan Dictionary kokoelmaan voi lisätä kysymyksiä helposti ilman pää koodin muuttamista
 
 dict_kysymykset = {
     "Kuka kehitti ensimmäisen Linux kernelin?": [
