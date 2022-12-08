@@ -1,4 +1,4 @@
-# Funktiot alustus
+# Funktiot alustus sekä tarvittavien kirjastojen importtaus
 
 import time
 import sys
