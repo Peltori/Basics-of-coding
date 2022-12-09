@@ -7,11 +7,11 @@ Toteutus TTC2030-3032
 ## Repon kloonaus
 
 cloonaa repo
-aja ohjelma Tietovisa.py Harjoitustyö kansion sisällä
+aja ohjelma "Tietovisa.py" "Harjoitustyö" kansion sisällä
 ohjelman ajamiseen ei tarvitse asennella mitään pythonin lisäosia
 
 ```
-git clone https://gitlab.labranet.jamk.fi/AC7995/tt2030.git
+git clone https://gitlab.labranet.jamk.fi/AC7995/ttc2030.git
 cd ttc2030/Harjoitustyö
 ```
 
