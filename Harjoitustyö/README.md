@@ -16,7 +16,7 @@ Voit myös asentaa Visual Studio Coden halutessasi.<br />
 
 ## Repon kloonaus ja ohjelman käynnistys
 
-Ohjelman ajaminen on testattu Windowsilla Visual Studio Codella sekä Windowsin terminaalilla 
+Ohjelman ajaminen on testattu Windowsilla Visual Studio Codella sekä Windowsin terminaalilla, python 3.10 versiolla sekä 3.11 versiolla.
 
 Cloonaa repo haluamaasi kansioon muualle kuin "C:" aseman juureen Windowsissa tai root "/" hakemistoon Linuxilla.<br />
 Aja ohjelma "Tietovisa.py" "ttc2030" kansion sisällä.<br />
