@@ -6,16 +6,16 @@ Toteutus TTC2030-3032
 
 ## Alkuvalmistelut
 
-asenna python 3.10 tai 3.11 versio
+Asenna python 3.10 tai 3.11 versio.
 
 ## Repon kloonaus ja ohjelman käynnistys
 
 ohjelman ajaminen on testattu Windowsilla Visual Studio Codella sekä Windowsin terminaalilla 
 
-cloonaa repo haluamaasi kansioon muualle kuin "C:" aseman juureen Windowsissa tai root "/" hakemistoon Linuxilla
-aja ohjelma "Tietovisa.py" "ttc2030" kansion sisällä
-ohjelman ajamiseen ei tarvitse asennella mitään pythonin lisäosia
-älä suorita pythonia "Harjoitustyö" kansiosta vaan ttc2030 kansion juuresta seuraavasti
+Cloonaa repo haluamaasi kansioon muualle kuin "C:" aseman juureen Windowsissa tai root "/" hakemistoon Linuxilla.<br />
+aja ohjelma "Tietovisa.py" "ttc2030" kansion sisällä.<br />
+Ohjelman ajamiseen ei tarvitse asennella mitään pythonin lisäosia.<br />
+älä suorita pythonia "Harjoitustyö" kansiosta vaan ttc2030 kansion juuresta seuraavasti.<br />
 
 
 ```
@@ -26,17 +26,17 @@ python ".\Harjoitustyö\Tietovisa.py"
 
 ## Visan toiminta/käyttöohjeet
 
-Ohjelman suoritus alkaa ja ohjelma kysyy ensin pelaajan nimen.
-Tämän jälkeen kysymykset tulostetaan yksi kerrallaan vastausvaihtoehtojen kanssa.
-Vastaa kysymyksiin numeroilla 0, 1 tai 2.
-Kysymyksiä kysytään 5 kappaletta jonka jälkeen ohjelma sammuu.
-Näet oikeiden vastausten määrän "Harjoitustyö/Pisteet/Visailun_pisteet.txt" hakemistosta.
-Komentoihin liittyvät kysymykset on testattu Linuxilla bash shellillä.
+Ohjelman suoritus alkaa ja ohjelma kysyy ensin pelaajan nimen.<br />
+Tämän jälkeen kysymykset tulostetaan yksi kerrallaan vastausvaihtoehtojen kanssa.<br />
+Vastaa kysymyksiin numeroilla 0, 1 tai 2.<br />
+Kysymyksiä kysytään 5 kappaletta jonka jälkeen ohjelma sammuu.<br />
+Näet oikeiden vastausten määrän "Harjoitustyö/Pisteet/Visailun_pisteet.txt" hakemistosta.<br />
+Komentoihin liittyvät kysymykset on testattu Linuxilla bash shellillä.<br />
 
 # Miksi ajaisit ohjelmani?
 
-Tykkäät visailuista tai muuten vain haluat testata taitojasi Linux tietämyksestäsi
-Ohjelma on kevyt ja toimii nopeasti eikä vie kovalevytilaa juurikaan.
+Tykkäät visailuista tai muuten vain haluat testata taitojasi Linux tietämyksestäsi.<br />
+Ohjelma on kevyt ja toimii nopeasti eikä vie kovalevytilaa juurikaan.<br />
 
 # Tekijä/opsikelijatunnus
 
