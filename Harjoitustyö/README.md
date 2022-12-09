@@ -8,7 +8,7 @@ Toteutus TTC2030-3032
 
 Asenna python 3.10 tai 3.11 versio Microsoft Storesta tai pythonin sivuilta.<br />
 
-[Visual Studio Code lataus](https://code.visualstudio.com/)
+[Visual Studio Code lataus](https://code.visualstudio.com/)<br />
 [Pythonin lataus](https://www.python.org/downloads/) 
 
 ## Repon kloonaus ja ohjelman käynnistys
@@ -35,7 +35,7 @@ Tämän jälkeen kysymykset tulostetaan yksi kerrallaan vastausvaihtoehtojen kan
 Vastaa kysymyksiin numeroilla 0, 1 tai 2.<br />
 Kysymyksiä kysytään 5 kappaletta jonka jälkeen ohjelma sammuu.<br />
 Näet oikeiden vastausten määrän "Harjoitustyö/Pisteet/Visailun_pisteet.txt" hakemistosta.<br />
-Komentoihin liittyvät kysymykset on testattu Linuxilla bash shellillä.<br />
+Komentoihin liittyvät kysymykset on testattu Linuxilla bash shellillä.
 
 # Miksi ajaisit ohjelmani?
 
