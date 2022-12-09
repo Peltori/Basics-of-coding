@@ -6,7 +6,7 @@ Toteutus TTC2030-3032
 
 ## Alkuvalmistelut
 
-Asenna python 3.10 tai 3.11 versio.
+Asenna python 3.10 tai 3.11 versio Microsoft Storesta tai pythonin sivuilta. [Link](https://www.python.org/downloads/) 
 
 ## Repon kloonaus ja ohjelman käynnistys
 
