@@ -43,7 +43,6 @@ while True:
         for num, (kysymys, vaihtoehdot) in enumerate(kysymykset, start=1):
             slowPrint(f"\nKysymys {num}:")
             slowPrint(f"{kysymys}")
-            kysytyt_kysymykset += 1
             oikea_vastaus = vaihtoehdot[0]
             arvo_vaihtoehdot = random.sample(vaihtoehdot, k=len(vaihtoehdot))
 
@@ -55,11 +54,13 @@ while True:
 
             if vastaus == oikea_vastaus:
                 pisteet += 1
+                kysytyt_kysymykset += 1
                 slowPrint("Oikein!!")
 
             else:
                 slowPrint("Väärin! Parempi onni ensi kerralla")
-
+                kysytyt_kysymykset += 1
+                
         if kysytyt_kysymykset == 5:
             file.write(pelaaja + " Sait " + str(pisteet) + "/5 kysymystä oikein " + "\n" )
             file.close()
@@ -74,3 +75,7 @@ while True:
 
     except ValueError:
         print("Vain kokonaisluvut sallittuja")
+
+    except FileNotFoundError:
+        print("Tiedostoa ei löytynyt \nTarkista suorititko ohjelman oikeasta hakemistosta")
+        break
