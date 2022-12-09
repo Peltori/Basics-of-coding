@@ -10,12 +10,12 @@ Asenna python 3.10 tai 3.11 versio.
 
 ## Repon kloonaus ja ohjelman käynnistys
 
-ohjelman ajaminen on testattu Windowsilla Visual Studio Codella sekä Windowsin terminaalilla 
+Ohjelman ajaminen on testattu Windowsilla Visual Studio Codella sekä Windowsin terminaalilla 
 
 Cloonaa repo haluamaasi kansioon muualle kuin "C:" aseman juureen Windowsissa tai root "/" hakemistoon Linuxilla.<br />
-aja ohjelma "Tietovisa.py" "ttc2030" kansion sisällä.<br />
+Aja ohjelma "Tietovisa.py" "ttc2030" kansion sisällä.<br />
 Ohjelman ajamiseen ei tarvitse asennella mitään pythonin lisäosia.<br />
-älä suorita pythonia "Harjoitustyö" kansiosta vaan ttc2030 kansion juuresta seuraavasti.<br />
+Älä suorita pythonia "Harjoitustyö" kansiosta vaan ttc2030 kansion juuresta seuraavasti.<br />
 
 
 ```
