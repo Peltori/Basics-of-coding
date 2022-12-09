@@ -17,12 +17,12 @@ cd ttc2030/Harjoitustyö
 
 ## Visan toiminta/käyttöohjeet
 
-Ohjelman suoritus alkaa ja ohjelma kysyy ensin pelaajan nimen
-Tämän jälkeen kysymykset tulostetaan yksi kerrallaan vastausvaihtoehtojen kanssa
-Vastaa kysymyksiin numeroilla 0, 1 tai 2
-Kysymyksiä kysytään 5 kappaletta jonka jälkeen ohjelma sammuu
-Näet oikeiden vastausten määrän "Pisteet" kansion "Visailun_pisteet.txt" tiedostosta
-Komentoihin liittyvät kysymykset on testattu Linuxilla bash shellillä
+Ohjelman suoritus alkaa ja ohjelma kysyy ensin pelaajan nimen.
+Tämän jälkeen kysymykset tulostetaan yksi kerrallaan vastausvaihtoehtojen kanssa.
+Vastaa kysymyksiin numeroilla 0, 1 tai 2.
+Kysymyksiä kysytään 5 kappaletta jonka jälkeen ohjelma sammuu.
+Näet oikeiden vastausten määrän "Pisteet" kansion "Visailun_pisteet.txt" tiedostosta.
+Komentoihin liittyvät kysymykset on testattu Linuxilla bash shellillä.
 
 # Miksi ajaisit ohjelmani?
 
