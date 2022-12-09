@@ -23,6 +23,7 @@ Aja ohjelma "Tietovisa.py" "ttc2030" kansion sisällä.<br />
 Ohjelman ajamiseen ei tarvitse asennella mitään pythonin lisäosia.<br />
 Älä suorita pythonia "Harjoitustyö" kansiosta vaan ttc2030 kansion juuresta seuraavasti.<br />
 Voit myös ajaa ohjelman Visual Studio Coden avulla.<br />
+"Pisteet" kansio pitää löytyä "Harjoitustyö" kansion juuresta, muuten ohjelma ei toimi.
 
 
 ```
