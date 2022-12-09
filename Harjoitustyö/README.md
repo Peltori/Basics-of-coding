@@ -6,7 +6,10 @@ Toteutus TTC2030-3032
 
 ## Alkuvalmistelut
 
-Asenna python 3.10 tai 3.11 versio Microsoft Storesta tai pythonin sivuilta. [Pythonin lataus](https://www.python.org/downloads/) 
+Asenna python 3.10 tai 3.11 versio Microsoft Storesta tai pythonin sivuilta.<br />
+
+[Visual Studio Code lataus](https://code.visualstudio.com/)
+[Pythonin lataus](https://www.python.org/downloads/) 
 
 ## Repon kloonaus ja ohjelman käynnistys
 
@@ -16,6 +19,7 @@ Cloonaa repo haluamaasi kansioon muualle kuin "C:" aseman juureen Windowsissa ta
 Aja ohjelma "Tietovisa.py" "ttc2030" kansion sisällä.<br />
 Ohjelman ajamiseen ei tarvitse asennella mitään pythonin lisäosia.<br />
 Älä suorita pythonia "Harjoitustyö" kansiosta vaan ttc2030 kansion juuresta seuraavasti.<br />
+Voit myös ajaa ohjelman Visual Studio Coden avulla.<br />
 
 
 ```
