@@ -60,7 +60,7 @@ while True:
             else:
                 slowPrint("Väärin! Parempi onni ensi kerralla")
                 kysytyt_kysymykset += 1
-                
+
         if kysytyt_kysymykset == 5:
             file.write(pelaaja + " Sait " + str(pisteet) + "/5 kysymystä oikein " + "\n" )
             file.close()
@@ -69,6 +69,8 @@ while True:
 
 # Huomioidaan Index virhe jos käyttäjä yrittää antaa vastausvaihtoehdon mitä ei ole olemassa
 ## Huomioidaan myös virhe jos käyttäjä ei anna kokonaislukua
+### Jos tiedoston luonti ei onnistu ilmoitetaan käyttäjälle asiasta ja breakataan looppi ja ohjelma sammuu
+#### Muutoin jäisi tuo printti vain looppaamaan loputtomasti, koska tiedostoa ei löydy ja ohjelma yrittäisi luoda tiedostoa koko ajan uudestaan ja uudestaan
 
     except IndexError:
         print("Valitsemaasi numeroa ei löytynyt vastauksien valinnasta")
