@@ -7,6 +7,7 @@ Toteutus TTC2030-3032
 ## Alkuvalmistelut
 
 Asenna python 3.10 tai 3.11 versio Microsoft Storesta tai pythonin sivuilta.<br />
+Voit myös asentaa Visual Studio Coden halutessasi.<br />
 
 [Visual Studio Code lataus](https://code.visualstudio.com/)<br />
 [Pythonin lataus](https://www.python.org/downloads/) 
