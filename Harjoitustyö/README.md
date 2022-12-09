@@ -27,7 +27,7 @@ Voit myös ajaa ohjelman Visual Studio Coden avulla.<br />
 
 ```
 git clone https://gitlab.labranet.jamk.fi/AC7995/ttc2030.git
-cd "hakemistosi polku"\ttc2030\
+cd .\ttc2030\
 python ".\Harjoitustyö\Tietovisa.py"
 ```
 
