@@ -61,7 +61,7 @@ while True:
                 slowPrint("Väärin! Parempi onni ensi kerralla")
                 kysytyt_kysymykset += 1
 
-        if kysytyt_kysymykset == 5:
+        if kysytyt_kysymykset >= 5:
             file.write(pelaaja + " Sait " + str(pisteet) + "/5 kysymystä oikein " + "\n" )
             file.close()
             slowPrint("Kiitoksia visailusta ja ensi kertaan!")
